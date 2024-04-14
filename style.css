@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    /*  make the input field still */
+    & input {
+        padding: 20px 14px;
+        font-size: 2rem;
+        margin-bottom: 10px;
+
+        &::placeholder {
+            text-align: left;
+            font-size: 20px;
+        }
+    }
+
+    & h4 {
+        padding: 8px;
+        color: #333;
+        font-size: 20px;
+
+    }
+
+
+    & h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
